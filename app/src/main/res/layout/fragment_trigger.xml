@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_warna"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control Relay"
+                android:textColor="@color/abu_abu_muda"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/btn_relay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relay 1"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/textViewTitle"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/abu_abu_muda"
+                app:showText="true"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:thumb="@drawable/thumb"
+                app:track="@drawable/track"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/btn_relay2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relay 2"
+                android:layout_below="@id/btn_relay1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/abu_abu_muda"
+                app:showText="true"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:thumb="@drawable/thumb"
+                app:track="@drawable/track"/>
+
+            <TextView
+                android:id="@+id/timestampText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp: 00:00"
+                android:textColor="@color/abu_abu_muda"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/btn_relay2"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/countdown_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter time in seconds"
+                android:inputType="number"
+                android:layout_below="@id/timestampText"
+                android:textColor="@color/abu_abu_muda"
+                android:backgroundTint="@color/abu_abu_muda"
+                android:textColorHint="@color/abu_abu_muda"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/countdown_text1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_StartTimer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue"
+                    android:text="Start Timer" />
+                <Button
+                    android:id="@+id/btn_Mode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/yellow"
+                    android:textColor="@color/black"
+                    android:text="Mode 1" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_Reset"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_weight="1"
+                android:text="Reset"
+                android:layout_below="@id/buttonLayout"
+                android:backgroundTint="@color/abu_abu_muda"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

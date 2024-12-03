@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "632689056719",
+    "project_id": "trigger-channel",
+    "storage_bucket": "trigger-channel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632689056719:android:3ff84b6419aaa049fe90ba",
+        "android_client_info": {
+          "package_name": "example.trigger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632689056719-hnu4brffun9vau6tpk694ef6lfem0rus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwx5l1R90lO_zqktV7vW01S8r88YlODJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632689056719-hnu4brffun9vau6tpk694ef6lfem0rus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632689056719:android:b9f8f50bc5e4bc80fe90ba",
+        "android_client_info": {
+          "package_name": "example.trigger2_channel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632689056719-00ckg0prgcdn8j8o4uf2i6t3af8vgv1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.trigger2_channel",
+            "certificate_hash": "348690fa6e300b62c86ad880be0153890383e830"
+          }
+        },
+        {
+          "client_id": "632689056719-hnu4brffun9vau6tpk694ef6lfem0rus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwx5l1R90lO_zqktV7vW01S8r88YlODJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632689056719-hnu4brffun9vau6tpk694ef6lfem0rus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

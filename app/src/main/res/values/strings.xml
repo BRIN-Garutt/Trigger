@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trigger 2 Channel</string>
+    <string name="devices">Bluetooth Devices</string>
+    <string name="default_web_client_id">495502683273-8famd45edv1qv69mn2msvqk3aq1p19av.apps.googleusercontent.com</string>
+
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+</resources>
