@@ -51,7 +51,7 @@
                     android:id="@+id/mode1_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mode 1:"
+                    android:text="Mode 1 (Dual):"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:paddingBottom="8dp"/>
@@ -68,7 +68,7 @@
                     android:id="@+id/mode2_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mode 2:"
+                    android:text="Mode 2 (Squence):"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 

@@ -323,13 +323,13 @@ public class TriggerFragment extends Fragment implements ServiceConnection, Seri
     private void switchMode() {
         if (currentMode == 1) {
             currentMode = 2;
-            btnMode.setText("Mode 2");
+            btnMode.setText("Mode 2 (Squence)");
         } else if (currentMode == 2) {
             currentMode = 3;
-            btnMode.setText("Mode 3");
+            btnMode.setText("Mode 3 (Alternate)");
         } else {
             currentMode = 1;
-            btnMode.setText("Mode 1");
+            btnMode.setText("Mode 1 (Dual)");
         }
         Toast.makeText(getActivity(), "Beralih ke Mode " + currentMode, Toast.LENGTH_SHORT).show();
     }

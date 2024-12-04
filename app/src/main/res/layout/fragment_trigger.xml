@@ -108,7 +108,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/yellow"
                     android:textColor="@color/black"
-                    android:text="Mode 1" />
+                    android:text="Mode 1 (Dual)" />
             </LinearLayout>
 
             <Button
